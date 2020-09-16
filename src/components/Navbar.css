@@ -1,8 +1,13 @@
 .navbar-brand {
-  color: #333;
+  color: white;
 }
-
+.navbar{
+  background:black;
+}
 a {
-  color: #aaa;
+  color: black;
   font-weight: 200;
+}
+.nav-link{
+  color: white; 
 }

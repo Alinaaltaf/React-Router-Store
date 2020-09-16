@@ -22,7 +22,7 @@ class App extends Component {
           <Route path="/park-avenue" component={Header}/>
           <Route path="/obsern-sneaker" component={Contact}/>
           <Route path=":productID" component={ProductDetails}/>
-          <Route path="*" component={NotFound}/>
+          {/* <Route path="*" component={NotFound}/> */}
         </div>
       </Router>
     );
